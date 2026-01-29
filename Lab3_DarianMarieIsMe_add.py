@@ -12,3 +12,8 @@ from Lab3.Lab3_DarianMarieIsMe_list import items
 
 #Appending 5 more items to the list
 
+items.append('hair ties')
+items.append('toothpase')
+items.append('blankets')
+items.append('cookies')
+items.append('camping chairs')
