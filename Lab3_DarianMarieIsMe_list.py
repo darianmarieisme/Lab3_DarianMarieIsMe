@@ -18,7 +18,7 @@ print("Number of items in the list:", len(items))
 
 items.sort()
 
-print("Items I will be taking with me, sorted alphabetically:" items[0].title)
+print("Items I will be taking with me, sorted alphabetically:", items[0].title)
 print(items[1].title)
 print(items[2].title)
 print(items[3].title)
