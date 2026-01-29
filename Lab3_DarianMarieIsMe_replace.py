@@ -8,3 +8,10 @@ one of the string items from this list with binoculars and use slice notation
 
 from Lab3_DarianMarieIsMe_add import items
 
+# Modifying the list
+
+items[1] = 'binoculars'
+
+# Printing list to binoculars using slice notation
+
+print("Items I will be taking with me up to binoculars:", items[:2])
