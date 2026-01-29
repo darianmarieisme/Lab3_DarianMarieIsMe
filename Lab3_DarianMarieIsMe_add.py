@@ -8,7 +8,7 @@ reversed alphabetically.
 
 #Importing the list from Lab3_DarianMarieIsMe_list.py
 
-from Lab3.Lab3_DarianMarieIsMe_list import items
+from Lab3_DarianMarieIsMe_list import items
 
 #Appending 5 more items to the list
 
@@ -17,3 +17,25 @@ items.append('toothpase')
 items.append('blankets')
 items.append('cookies')
 items.append('camping chairs')
+
+#Sorting and printing the list in reverse alphabetical order
+
+items.sort(reverse=True)
+
+print("Items I will be taking with me, sorted in reverse alphabetical order:")
+
+print(items[0].title())
+print(items[1].title())
+print(items[2].title())
+print(items[3].title())
+print(items[4].title())
+print(items[5].title())
+print(items[6].title())
+print(items[7].title())
+print(items[8].title())
+print(items[9].title())
+print(items[10].title())
+print(items[11].title())
+print(items[12].title())
+print(items[13].title())
+print(items[14].title())
