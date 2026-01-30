@@ -12,3 +12,8 @@ from Lab3_DarianMarieIsMe_replace import items
 # Removing an item from the list
 
 items.remove('binoculars')
+
+# Printing the resulting list
+
+print("Items I will now be taking with me:", items)
+print(f"I will be taking this many items with me: {len(items)}")
