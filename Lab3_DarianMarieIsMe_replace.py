@@ -15,3 +15,5 @@ items[1] = 'binoculars'
 # Printing list to binoculars using slice notation
 
 print("Items I will be taking with me up to binoculars:", items[:2])
+
+print("Full list of items after binoculars: ", items[2:])
